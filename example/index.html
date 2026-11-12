@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astra Linux</title>
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+
+<body>
+  <header>
+    <h1>Astra Linux</h1>
+  </header>
+
+  <main class="page-content">
+    <a class="astra-link" href="https://astralinux.ru/press-center/">
+      <img class="astra-image" src="al.PNG" alt="Логотип Astra Linux">
+    </a>
+
+    <div class="astra-article">
+      <h2>Об Astra Linux</h2>
+      <p>
+        Astra Linux - российская операционная система на базе Linux.
+        Она используется на домашних компьютерах, в организациях
+        и государственных учреждениях.
+      </p>
+      <p>
+        Система уделяет большое внимание безопасности информации.
+        У неё есть собственный рабочий стол и программы для повседневной работы.
+      </p>
+    </div>
+
+    <div class="feedback-block">
+      <h2>Обратная связь</h2>
+
+      <form id="feedback-form" novalidate>
+        <label class="name-label" for="name">Имя:</label>
+        <input class="name-input" id="name" type="text" placeholder="Введите имя" required>
+
+        <label class="email-label" for="email">Email:</label>
+        <input class="email-input" id="email" type="email" placeholder="Введите Email" required>
+
+        <label class="message-label" for="message">Сообщение:</label>
+        <textarea class="message-input" id="message" placeholder="Введите сообщение" required></textarea>
+
+        <button class="send-button" type="submit">Отправить</button>
+      </form>
+
+      <p id="form-message"></p>
+    </div>
+
+    <button class="link-one" type="button" onclick="window.open('https://www.ntp-servers.net/')">NTP</button>
+    <button class="link-two" type="button" onclick="window.open('https://one.one.one.one/dns/')">DNS</button>
+  </main>
+
+  <footer>
+    <p>that`s all</p>
+  </footer>
+
+  <script src="script.js?v=2"></script>
+</body>
+
+</html>
